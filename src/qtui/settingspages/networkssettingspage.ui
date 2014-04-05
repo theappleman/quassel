@@ -480,20 +480,20 @@ Note that Quassel IRC automatically rejoins channels, so /join will rarely be ne
                </item>
               </layout>
              </item>
-             <item>
-              <widget class="QCheckBox" name="rejoinOnReconnect">
-               <property name="enabled">
-                <bool>true</bool>
-               </property>
-               <property name="text">
-                <string>Rejoin all channels after reconnect</string>
-               </property>
-               <property name="checked">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
             </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="rejoinOnReconnect">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>Rejoin all channels after reconnect</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
            </widget>
           </item>
           <item>
